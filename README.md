@@ -25,13 +25,13 @@ Le programme de test VotingTest.js déroule les tests unitaires du programme Vot
 - npm install --prefix . import @openzeppelin/contracts  
 - npm install --prefix . @openzeppelin/test-helpers
 
-## lancement des tests
+## Lancement des tests
 - activer ganache : ganache
 - compiler et deployer : truffle migrate 
 - run test : truffle test test/VotingTest.js
 
-## resultats des tests : 54 passings
-### Contract: Voting
+## Résultats des tests : 54 passings
+### Liste 
     Contract deployment
       ✓ check the owner has created Voting contract (12ms)
       ✓ check the init workflow status is RegisteringVoters (14ms)
