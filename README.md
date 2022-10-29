@@ -30,7 +30,7 @@ Le programme de test VotingTest.js déroule les tests unitaires du programme Vot
 - compiler et deployer : truffle migrate 
 - run test : truffle test test/VotingTest.js
 
-## Résultats des tests : 54 passing
+## Résultats des tests : 53 passing
 ### Liste des tests
     Contract deployment
       ✓ check the owner has created Voting contract (12ms)
@@ -98,7 +98,7 @@ Le programme de test VotingTest.js déroule les tests unitaires du programme Vot
       ✓ event endVotingSession (178ms, 186526 gas)
       ✓ event tallyVotes (160ms, 224375 gas)
 
-### Performances : 54 passing (26s)
+### Performances : 53 passing (26s)
 
 <li><picture>
 <img alt="Shows performances." src="https://github.com/Yves77Yves/Rendu2/blob/main/performance%20VotingTest.jpg">
