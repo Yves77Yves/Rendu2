@@ -25,7 +25,6 @@ Le programme de test VotingTest.js déroule les tests unitaires du programme Vot
 - npm install --prefix . import @openzeppelin/contracts  
 - npm install --prefix . @openzeppelin/test-helpers
 
-
 ## lancement des tests
 - activer ganache : ganache
 - compiler et deployer : truffle migrate 
@@ -99,11 +98,12 @@ Le programme de test VotingTest.js déroule les tests unitaires du programme Vot
       ✓ event endVotingSession (178ms, 186526 gas)
       ✓ event tallyVotes (160ms, 224375 gas)
 
-## Performances.
+## Performances : 54 passing (26s)
 
-- <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
+<li><picture>
+<img alt="Shows performances." src="https://github.com/Yves77Yves/Rendu2/blob/main/performance%20VotingTest.jpg">
+</picture></li>
+<li><picture>
+<img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" height="62" width="62">
+</picture></li>
 
--  54 passing (26s)
